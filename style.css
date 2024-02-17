@@ -195,7 +195,7 @@ p {
 @media (max-width: 375px) {
   body {
     background-color: hsl(225, 100%, 94%);
-    margin: 4rem 2rem;
+    padding-top: 40px;
 
     background-image: url("images/pattern-background-mobile.svg");
 
@@ -204,7 +204,8 @@ p {
   }
 
   .card {
-    max-width: 90%;
+    max-width: calc(90% - 20px);
+    margin: 0 auto;
   }
 
   .card-content {
