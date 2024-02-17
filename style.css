@@ -64,7 +64,6 @@ body {
 
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: -60px;
 }
 
 p {
@@ -202,7 +201,6 @@ p {
 
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: -60px;
   }
 
   .card {
